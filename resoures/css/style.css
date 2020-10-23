@@ -1,3 +1,48 @@
+/* GLOBAL DEFAULTS */
+
 body{
-    background-color: red;
+    background-color: grey;
+}
+
+a{
+    color: gainsboro
+}
+/* HEADINGS AND TYPOOGRAPHY*/
+
+h1{
+    background-color: peachpuff;
+    color: black;
+}
+
+/* LAYOUTS*/
+.layout-wide {
+
+    max-width: 800px
+margin-left:auto;
+margin-right:auto;
+}
+
+/* HEADER AND MIAN AND FOOTER*/
+
+header{ 
+background-color: pink;
+
+}
+
+main {
+background-color:palevioletred;
+}
+
+/*NAVIGATIONS*/
+
+/*MODULES*/ 
+.module-name a{
+    color:gainsboro;
+}
+
+.layout-wide {
+
+    max-width: 800px
+margin-left:auto;
+margin-right:auto;
 }
