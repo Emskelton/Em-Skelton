@@ -7,10 +7,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Antic+Slab&family=Yanone+Kaffeesatz:wght@300;400&display=swap'); 
 
+*{
+    box-sizing: border-box;
+
+
+}
+
 
 body{
     background-color:rgb(243, 131, 141);
+
     font-family:'Antic Slab', serif; 
+line-height: 1.8
+
+
+
+
+
 }
 a{
     color: gainsboro
@@ -25,15 +38,16 @@ iframe{
 
 h1{
     background-color: peachpuff;
-    color: black; 
-    font-family: Helvetica, sans-serif;
+    font-family: 'Amatic SC', cursive; 
+
+       
 }
-h1,
-h2,
+h1, 
+h2, 
 h3,
 h4,
 h5 {
-    color:rgb(240, 231, 240);
+    color: black;
     font-family: 'Amatic SC', cursive; 
     font-size: xx-large;
     
@@ -57,12 +71,19 @@ header{
 background-color: pink;
 
 }
+footer {
+    background-color:pink    
+    } 
+
+
 
 main {
 background-color:rgb(243, 131, 141);
-font-family:'Antic Slab', serif;   
-
+font-family:'Antic Slab', serif; 
+font-size: 18px 
+ 
 }
+
 img
 iframe{
     max-width: 85%;
