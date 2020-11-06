@@ -5,24 +5,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Antic+Slab&family=Yanone+Kaffeesatz:wght@300;400&display=swap'); 
 
 *{
     box-sizing: border-box;
 
-
 }
-
-
 body{
     background-color:rgb(243, 131, 141);
 
     font-family:'Antic Slab', serif; 
 line-height: 1.8
-
-
-
-
 
 }
 a{
@@ -38,8 +30,7 @@ iframe{
 
 h1{
     background-color: peachpuff;
-    font-family: 'Amatic SC', cursive; 
-
+    font-family: 'Antic Slab', serif
        
 }
 h1, 
@@ -48,11 +39,10 @@ h3,
 h4,
 h5 {
     color: black;
-    font-family: 'Amatic SC', cursive; 
+    font-family: 'Antic slab', cursive; 
     font-size: xx-large;
     
 }
-
 
 /* LAYOUTS*/
 .layout-wide {
@@ -63,22 +53,23 @@ margin-right:auto;
 
 padding:20px;
 
+
 }
 
 /* HEADER AND MIAN AND FOOTER*/
 
 header{ 
-background-color: pink;
+background-color: rgb(243, 131, 141) 
+
 
 }
-footer {
-    background-color:pink    
-    } 
-
-
+footer{
+    background-color:rgb(243, 131, 141)
+}
+     
 
 main {
-background-color:rgb(243, 131, 141);
+background-color: whitesmoke;
 font-family:'Antic Slab', serif; 
 font-size: 18px 
 
@@ -98,6 +89,7 @@ iframe{
 .news-component
 {background-color: #f1f1f1;
     padding: 20px
+
  
 }
 
