@@ -1,7 +1,6 @@
 /* GLOBAL DEFAULTS */
 @import 'https://necolas.github.io/normalize.css/8.0.1/normalize.css';  
 
-@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap'); 
 
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
 
@@ -132,15 +131,13 @@ iframe{
 @media screen and (min-width:600px) {
     .images-preview {
         display:grid; 
-        grid-template: 1fr 1fr;
-        grid-template-columns: auto;
+        grid-template-columns: 1fr 1fr ;
         grid-gap:20px 
     }
 }
 @media screen and (min-width:800px){ 
     .images-preview {
         grid-template-columns: 1fr 1fr 1fr 1fr ;    
-        grid-template: 1fr 1fr ; 
     }
 
 }
