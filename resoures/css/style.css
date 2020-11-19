@@ -92,11 +92,10 @@ background-color:whitesmoke
     max-width: 145px;
 }
 .site-title{
-    font-size: 75px;
+    font-size: 65px;
 }
 
 }
-
 
  header.layout-wide{
      display: grid;
@@ -105,8 +104,11 @@ background-color:whitesmoke
 
 
 footer{
-    background-color:rgb(243, 131, 141)
-}
+    background-color:rgb(243, 131, 141) 
+    
+} 
+    
+
 
 
 main {
