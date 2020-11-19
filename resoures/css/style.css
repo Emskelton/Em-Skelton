@@ -78,7 +78,7 @@ header{
 background-color:whitesmoke 
 } 
 .logo-wrapper img{
-    max-width: 150px 
+    max-width: 30px 
 }
 .site-title {
     font-size: 75px;  
@@ -86,9 +86,21 @@ background-color:whitesmoke
     font-family: 'Yanone Kaffeesatz', sans-serif; 
     text-align: right;
 }
+
+@media screen and (min-width:500px) {
+.logo-wrapper img {
+    max-width: 145px;
+}
+.site-title{
+    font-size: 75px;
+}
+
+}
+
+
  header.layout-wide{
      display: grid;
-     grid-template-columns: 4fr 7fr;
+     grid-template-columns: 2fr 8fr;
  }
 
 
