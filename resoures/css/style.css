@@ -109,9 +109,6 @@ footer{
     
 } 
     
-
-
-
 main {
 background-color: whitesmoke;
 font-family:'Antic Slab', serif; 
@@ -125,6 +122,30 @@ iframe{
 }
 
 /*NAVIGATIONS*/
+.navigations{
+    background-color: whitesmoke;
+}
+.nav-inner ul{
+    list-style: none;
+    padding:0; 
+
+}
+.nav-inner li {
+    text-align: center;
+    text-transform: uppercase; 
+}
+.nav-inner a{
+    text-decoration: none;
+}
+   @media screen and (min-width:800px){
+        .nav-inner ul {
+            display:flex; 
+            justify-content: space-between; 
+        } 
+
+   }
+
+
 
 /*MODULES*/ 
 .module-name a{
