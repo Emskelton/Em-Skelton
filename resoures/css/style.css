@@ -97,9 +97,10 @@ background-color:whitesmoke
 
 }
 
- header.layout-wide{
-     display: grid;
+ header .layout-wide{
+     display: grid; 
      grid-template-columns: 2fr 8fr;
+     justify-content: space-between;
  }
 
 
