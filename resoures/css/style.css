@@ -84,7 +84,8 @@ background-color:whitesmoke
     font-size: 75px;  
     font-weight: bold;
     font-family: 'Yanone Kaffeesatz', sans-serif; 
-    text-align: right;
+    text-align: right; 
+    text-align: middle-center;
 }
 
 @media screen and (min-width:500px) {
@@ -123,7 +124,7 @@ iframe{
 
 /*NAVIGATIONS*/
 .navigation{
-    
+
 }
 .nav-inner ul{
     list-style: none;
