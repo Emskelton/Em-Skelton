@@ -212,3 +212,51 @@ iframe{
     }
 
 }
+/* my work page*/  
+header{ 
+    background-color:whitesmoke 
+    } 
+    .logo-wrapper img{
+        max-width: 30px 
+    }
+    .site-title {
+        font-size: 75px;  
+        font-weight: bold;
+        font-family: 'Yanone Kaffeesatz', sans-serif; 
+        text-align: right; 
+        text-align: middle-center;} 
+        
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  } 
+ 
+  
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+
+  
+  /* Closable button inside the image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color:rgb(243, 131, 141);
+    font-size: 35px;
+    cursor: pointer;
+  }
