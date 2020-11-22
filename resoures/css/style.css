@@ -122,8 +122,8 @@ iframe{
 }
 
 /*NAVIGATIONS*/
-.navigations{
-    background-color: whitesmoke;
+.navigation{
+    
 }
 .nav-inner ul{
     list-style: none;
@@ -156,7 +156,6 @@ iframe{
     .nav-prompt{
         display: none;
     }
-    
     
     .nav-inner ul {
             display:flex; 
