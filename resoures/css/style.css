@@ -78,7 +78,7 @@ header{
 background-color:whitesmoke 
 } 
 .logo-wrapper img{
-    max-width: 30px 
+    max-width: 50px 
 }
 .site-title {
     font-size: 75px;  
@@ -177,7 +177,8 @@ iframe{
 }
 .images-preview 
 {
-    display: grid;
+    display: grid; 
+    
 }
 .news-component h2 {
     color:indianred; 
@@ -211,13 +212,15 @@ iframe{
         grid-template-columns: 1fr 1fr 1fr 1fr ;    
     }
 
+} 
+.images-preview img{
+    max-width: 100%;
 }
 /* my work page*/  
 header{ 
     background-color:whitesmoke 
     } 
     .logo-wrapper img{
-        max-width: 30px 
     }
     .site-title {
         font-size: 75px;  
@@ -226,11 +229,8 @@ header{
         text-align: right; 
         text-align: middle-center;} 
         
-.column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-  }
+
+ 
   
   /* Style the images inside the grid */
   .column img {
@@ -248,8 +248,6 @@ header{
     position: relative;
     display: none;
   }
-  
-
   
   /* Closable button inside the image */
   .closebtn {
