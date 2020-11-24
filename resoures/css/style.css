@@ -5,8 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
 
 body{
-    background-color:rgb(243, 131, 141);
-
+    background-color: whitesmoke;
     font-family:'Antic Slab', serif; 
     line-height: 1.8
 
@@ -107,8 +106,12 @@ font-size: 18px
 }
 .news-component {
     font-family: 'Antic Slab';
-    font-size: 55px;
-}
+    font-size: 55px; 
+   grid-template-columns: auto;
+} 
+
+
+
 img
 iframe{
     max-width: 85%;
@@ -178,7 +181,6 @@ iframe{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-
 @media screen and (min-width:800px) {
 
     .news-component {
@@ -217,7 +219,9 @@ iframe{
 
 
 .hero-comp img{
-    width:100%;
+    width: fit-content; 
+    padding: 0.5%; 
+   
 }
 
 
@@ -284,4 +288,5 @@ header{
     color:rgb(243, 131, 141);
     font-size: 35px;
     cursor: pointer;
-  }
+  } 
+  
