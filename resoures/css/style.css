@@ -22,17 +22,7 @@ iframe{
 }
 /* HEADINGS AND TYPOOGRAPHY*/
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-    background-color: peachpuff;
-    font-family: 'Antic Slab', serif;
-    margin-left: auto;
-    margin-right:auto;
-    max-width: 2000px; 
-} 
+
 h1{
     font-size: 75px;
 }
@@ -218,6 +208,41 @@ iframe{
 .images-preview img{
     max-width: 100%;
 }
+
+/* hero comp */
+.hero-comp{
+    position: relative;
+}
+
+
+
+.hero-comp img{
+    width:100%;
+}
+
+
+@media screen and (min-width: 800px) {
+    .hero-comp .hero-content{
+       position: absolute;
+       top:0;
+       height:100%; 
+       width: 100%;  
+
+       text-align: center; 
+       display: flex;
+       align-items: center;
+      } 
+
+      .hero-comp h1{
+          color: aliceblue; 
+          font-family: 'Yanone Kaffeesatz', sans-serif;
+          text-shadow: 1px 1px 1px black
+      }
+}  
+
+
+
+
 /* my work page*/  
 header{ 
     background-color:whitesmoke 
