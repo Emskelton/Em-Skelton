@@ -57,18 +57,20 @@ h5 {
 /* LAYOUTS*/
 .layout-wide {
 
- max-width: 800px ;
+ max-width: 1200px ;
 margin-left:auto;
 margin-right:auto;
-padding:20px;
+padding:20px; 
+font-size: 55px;
 
 }
 .layout-narrow {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
-}
+    font-size: 55px;
+} 
+
 
 /* HEADER AND MIAN AND FOOTER*/
 
@@ -112,9 +114,11 @@ main {
 background-color: whitesmoke;
 font-family:'Antic Slab', serif; 
 font-size: 18px 
-
 }
-
+.news-component {
+    font-family: 'Antic Slab';
+    font-size: 55px;
+}
 img
 iframe{
     max-width: 85%;
