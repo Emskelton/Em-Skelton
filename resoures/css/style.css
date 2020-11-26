@@ -4,21 +4,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: whitesmoke;
     font-family:'Antic Slab', serif; 
-    line-height: 1.8
+    font-size: 20px;
+    line-height: 1.8 
 
 }
 a{
     color: black
 }
-
+a:hover{
+    color: black;
+}
 img,
 iframe{
     max-width: 85%;
 
-}
+} 
+
 /* HEADINGS AND TYPOOGRAPHY*/
 
 
@@ -44,20 +51,19 @@ h5 {
 }
 
 /* LAYOUTS*/
-.layout-wide {
-
- max-width: 1200px ;
-margin-left:auto;
-margin-right:auto;
-padding:20px; 
-font-size: 55px;
+.layout-wide { 
+    max-width: 1200px ;
+    margin-left:auto; 
+    margin-right:auto; 
+    padding:20px; 
+   
 
 }
 .layout-narrow {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 55px;
+  
 } 
 
 
@@ -108,9 +114,11 @@ font-size: 18px
     font-family: 'Antic Slab';
     font-size: 55px; 
    grid-template-columns: auto;
-} 
+}  
+.layout-narrow {
+    display: grid; 
 
-
+}
 
 img
 iframe{
@@ -160,8 +168,6 @@ iframe{
 
    }
 
-
-
 /*MODULES*/ 
 .module-name a{
     color:gainsboro;
@@ -210,20 +216,16 @@ iframe{
 .images-preview img{
     max-width: 100%;
 }
-
 /* hero comp */
 .hero-comp{
     position: relative;
 }
-
-
 
 .hero-comp img{
     width: fit-content; 
     padding: 0.5%; 
    
 }
-
 
 @media screen and (min-width: 800px) {
     .hero-comp .hero-content{
@@ -236,16 +238,12 @@ iframe{
        display: flex;
        align-items: center;
       } 
-
       .hero-comp h1{
           color: aliceblue; 
           font-family: 'Yanone Kaffeesatz', sans-serif;
           text-shadow: 1px 1px 1px black
       }
 }  
-
-
-
 
 /* my work page*/  
 header{ 
@@ -260,7 +258,6 @@ header{
         text-align: right; 
         text-align: middle-center;} 
         
-  
   /* Style the images inside the grid */
   .column img {
     opacity: 0.8; 
@@ -271,7 +268,6 @@ header{
     opacity: 1;
   } 
  
-  
   /* The expanding image container (positioning is needed to position the close button and the text) */
   .container {
     position: relative;
