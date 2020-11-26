@@ -260,8 +260,6 @@ header{
         text-align: right; 
         text-align: middle-center;} 
         
-
- 
   
   /* Style the images inside the grid */
   .column img {
@@ -289,4 +287,6 @@ header{
     font-size: 35px;
     cursor: pointer;
   } 
+   
+  /* new imgaes gallerys */ 
   

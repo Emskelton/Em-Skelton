@@ -7,7 +7,7 @@ function openNav() {
         navigation.classList.toggle('open');
     };
 }
-openNav(); 
+openNav();
 
 function myFunction(imgs) {
     // Get the expanded image
@@ -20,4 +20,8 @@ function myFunction(imgs) {
     imgText.innerHTML = imgs.alt;
     // Show the container element (hidden with CSS)
     expandImg.parentElement.style.display = "block";
-  }
+}
+
+// gallery 1 
+var lightbox = new SimpleLightbox('.gallery1 a', { /* options */ });
+
