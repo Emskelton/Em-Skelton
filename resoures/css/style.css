@@ -56,13 +56,15 @@ h5 {
     margin-left:auto; 
     margin-right:auto; 
     padding:20px; 
+    text-align: center;
    
 
 }
 .layout-narrow {
     max-width: 800px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+    
   
 } 
 
@@ -101,7 +103,8 @@ background-color:whitesmoke
 
 
 footer{
-    background-color:rgb(243, 131, 141) 
+    background-color:rgb(243, 131, 141);
+    justify-content: center;
     
 } 
     
@@ -117,12 +120,32 @@ font-size: 18px
 }  
 .layout-narrow {
     display: grid; 
+}
+.gallery1 {
+    display: block; 
+    columns: auto;
+    background-origin: padding-box; 
+    padding: 10px; 
+ 
+    
+} 
+@media screen and (min-width: 600px) {
+    .gallery1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+}
 
+@media screen and (min-width: 800px) {
+    .gallery1{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 img
 iframe{
-    max-width: 85%;
+    max-width: 55%;
 }
 
 /*NAVIGATIONS*/
