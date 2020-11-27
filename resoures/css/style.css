@@ -15,10 +15,11 @@ body{
 
 }
 a{
-    color: black
+    color: black; 
 }
 a:hover{
-    color: black;
+    
+    color:palevioletred
 }
 img,
 iframe{
@@ -102,12 +103,24 @@ background-color:whitesmoke
  }
 
 
-footer{
+
+  footer {
     background-color:rgb(243, 131, 141);
-    justify-content: center;
+  
+   
+  }
+  
+  
+  .footer-top {
+    display:  flex;
+    justify-content: space-between;
     
-} 
     
+  }
+  
+  .creative {
+    text-align: center;
+  }
 main {
 background-color: whitesmoke;
 font-family:'Antic Slab', serif; 
@@ -123,12 +136,14 @@ font-size: 18px
 }
 .gallery1 {
     display: block; 
-    columns: auto;
-    background-origin: padding-box; 
-    padding: 10px; 
- 
     
+    background-origin: padding-box; 
+    padding: 5px;  
+    row-gap: 15px;
+  
 } 
+
+
 @media screen and (min-width: 600px) {
     .gallery1 {
         display: grid;
